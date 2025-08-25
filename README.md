@@ -42,10 +42,15 @@ It classifies books into categories, performs **sentiment analysis** on descript
 ## ⚡ Installation
 
 1] Clone this repo
-2] cd book-recommender-system
+
+2] cd book-recommender-system 
+
 3] Create a virtual environment & install dependencies
+
 python -m venv venv
+
 source venv/bin/activate   # On Mac/Linux
+
 venv\Scripts\activate      # On Windows
 
 4] pip install -r requirements.txt
