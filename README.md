@@ -21,10 +21,10 @@ It classifies books into categories, performs **sentiment analysis** on descript
 ---
 
 ## 📂 Project Structure  
-
+"""
 ├── notebooks/  
-│   ├── data_exploration.ipynb       # Data exploration & preprocessing  <br>
-│   ├── vector_search.ipynb          # Semantic search using embeddings  <br>
+│   ├── data_exploration.ipynb       # Data exploration & preprocessing  
+│   ├── vector_search.ipynb          # Semantic search using embeddings  
 │   ├── test_classification.ipynb    # Zero-shot classification for categories  
 │   ├── sentiment_analysis.ipynb     # Emotion classification with fine-tuned model  
 │   ├── gradio_dashboard.py          # Gradio app for book recommendation dashboard  
@@ -37,7 +37,7 @@ It classifies books into categories, performs **sentiment analysis** on descript
 │
 ├── cover-not-found.jpg              # Default image for books without a cover  
 ├── README.md                        # Project documentation  
-
+"""
 
 ## ⚡ Installation
 
@@ -47,7 +47,6 @@ It classifies books into categories, performs **sentiment analysis** on descript
 python -m venv venv <br>
 source venv/bin/activate   # On Mac/Linux <br>
 venv\Scripts\activate      # On Windows <br>
-
 4] pip install -r requirements.txt <br>
 
 
