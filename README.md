@@ -21,7 +21,6 @@ It classifies books into categories, performs **sentiment analysis** on descript
 ---
 
 ## 📂 Project Structure  
-"""
 ├── notebooks/  
 │   ├── data_exploration.ipynb       # Data exploration & preprocessing  
 │   ├── vector_search.ipynb          # Semantic search using embeddings  
@@ -37,7 +36,6 @@ It classifies books into categories, performs **sentiment analysis** on descript
 │
 ├── cover-not-found.jpg              # Default image for books without a cover  
 ├── README.md                        # Project documentation  
-"""
 
 ## ⚡ Installation
 
