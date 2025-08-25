@@ -21,21 +21,21 @@ It classifies books into categories, performs **sentiment analysis** on descript
 ---
 
 ## 📂 Project Structure  
-── notebooks/  
-   ── data_exploration.ipynb       # Data exploration & preprocessing  
-│   ├── vector_search.ipynb          # Semantic search using embeddings  
-│   ├── test_classification.ipynb    # Zero-shot classification for categories  
-│   ├── sentiment_analysis.ipynb     # Emotion classification with fine-tuned model  
-│   ├── gradio_dashboard.py          # Gradio app for book recommendation dashboard  
+├── notebooks/
+│ ├── data_exploration.ipynb # Data exploration & preprocessing
+│ ├── vector_search.ipynb # Semantic search using embeddings
+│ ├── test_classification.ipynb # Zero-shot classification for categories
+│ ├── sentiment_analysis.ipynb # Emotion classification with fine-tuned model
+│ ├── gradio_dashboard.py # Gradio app for book recommendation dashboard
 │
-├── processed_data/  
-│   ├── books_cleansed.csv           # Cleaned dataset after preprocessing  
-│   ├── books_with_categories.csv    # Dataset with missing categories filled  
-│   ├── books_with_emotions.csv      # Dataset with emotion scores added  
-│   ├── tagged_description.txt       # Book descriptions (used for embeddings)  
+├── processed_data/
+│ ├── books_cleansed.csv # Cleaned dataset after preprocessing
+│ ├── books_with_categories.csv # Dataset with missing categories filled
+│ ├── books_with_emotions.csv # Dataset with emotion scores added
+│ ├── tagged_description.txt # Book descriptions (used for embeddings)
 │
-├── cover-not-found.jpg              # Default image for books without a cover  
-├── README.md                        # Project documentation  
+├── cover-not-found.jpg # Default image for books without a cover
+├── README.md # Project documentation
 
 ## ⚡ Installation
 
