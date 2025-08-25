@@ -41,26 +41,21 @@ It classifies books into categories, performs **sentiment analysis** on descript
 
 ## ⚡ Installation
 
-1] Clone this repo
+1] Clone this repo <br>
+2] cd book-recommender-system  <br>
+3] Create a virtual environment & install dependencies <br>
+python -m venv venv <br>
+source venv/bin/activate   # On Mac/Linux <br>
+venv\Scripts\activate      # On Windows <br>
 
-2] cd book-recommender-system 
-
-3] Create a virtual environment & install dependencies
-
-python -m venv venv
-
-source venv/bin/activate   # On Mac/Linux
-
-venv\Scripts\activate      # On Windows
-
-4] pip install -r requirements.txt
+4] pip install -r requirements.txt <br>
 
 
 ▶️ Usage
-Run the Gradio Dashboard
-python notebooks/gradio_dashboard.py
+Run the Gradio Dashboard <br>
+python notebooks/gradio_dashboard.py <br>
 
-Then open in browser:
+Then open in browser: 
 👉 http://127.0.0.1:7860
 
 📊 Example Output
