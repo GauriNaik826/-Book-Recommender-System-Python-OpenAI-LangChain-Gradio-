@@ -21,8 +21,8 @@ It classifies books into categories, performs **sentiment analysis** on descript
 ---
 
 ## 📂 Project Structure  
-├── notebooks/  
-│   ├── data_exploration.ipynb       # Data exploration & preprocessing  
+── notebooks/  
+   ── data_exploration.ipynb       # Data exploration & preprocessing  
 │   ├── vector_search.ipynb          # Semantic search using embeddings  
 │   ├── test_classification.ipynb    # Zero-shot classification for categories  
 │   ├── sentiment_analysis.ipynb     # Emotion classification with fine-tuned model  
