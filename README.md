@@ -23,8 +23,8 @@ It classifies books into categories, performs **sentiment analysis** on descript
 ## 📂 Project Structure  
 
 ├── notebooks/  
-│   ├── data_exploration.ipynb       # Data exploration & preprocessing  
-│   ├── vector_search.ipynb          # Semantic search using embeddings  
+│   ├── data_exploration.ipynb       # Data exploration & preprocessing  <br>
+│   ├── vector_search.ipynb          # Semantic search using embeddings  <br>
 │   ├── test_classification.ipynb    # Zero-shot classification for categories  
 │   ├── sentiment_analysis.ipynb     # Emotion classification with fine-tuned model  
 │   ├── gradio_dashboard.py          # Gradio app for book recommendation dashboard  
